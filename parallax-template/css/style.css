@@ -58,3 +58,6 @@ footer.page-footer {
 .main-img {
   height: auto;
 }
+.buttonp {
+  display: inline-block;
+}
