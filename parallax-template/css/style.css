@@ -65,3 +65,24 @@ footer.page-footer {
   height: 200px;
   width: 200px;
 }
+body{background-color: blue;}
+
+@keyframes rainbow {
+  0% { caret-color: red; }
+  20% { caret-color: rgb(255, 0, 119); }
+  40% { caret-color: yellow; }
+  60% { caret-color: rgb(0, 115, 128); }
+  80% { caret-color:coral; }
+  100% { caret-color: rgb(75, 0, 128); }
+}
+
+textarea, input {
+  caret-color: red;
+  display: block;
+  margin-bottom: .5em;
+}
+
+textarea:focus, input:focus {
+  animation: 3s infinite rainbow;
+}
+
