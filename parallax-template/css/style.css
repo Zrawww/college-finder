@@ -23,7 +23,7 @@ p {
   min-height: 380px;
   line-height: 0;
   height: auto;
-  color: rgba(255,255,255,.9);
+  color: yellow;
 }
   .parallax-container .section {
     width: 100%;
@@ -65,12 +65,12 @@ footer.page-footer {
   height: 200px;
   width: 200px;
 }
-body{background-color: blue;}
+body{background-color: rgb(255, 255, 0);}
 
 @keyframes rainbow {
   0% { caret-color: red; }
   20% { caret-color: rgb(255, 0, 119); }
-  40% { caret-color: yellow; }
+  40% { caret-color: ; }
   60% { caret-color: rgb(0, 115, 128); }
   80% { caret-color:coral; }
   100% { caret-color: rgb(75, 0, 128); }
